@@ -1,0 +1,57 @@
+# This file is the entry point to configure your own services.
+# Files in the packages/ subdirectory configure your dependencies.
+
+# Put parameters here that don't need to change on each machine where the app is deployed
+# https://symfony.com/doc/current/best_practices.html#use-parameters-for-application-configuration
+parameters:
+    locale: 'en'
+    app.where: external
+    app.contralia: https://test.contralia.fr:443
+    app.thmapi: http://srvwebdev02dev
+    app.eloqua: https://secure.p06.eloqua.com
+    app.front: '::1'
+    app.frontprod: '::1'
+    app.back: '::1'
+    app.webdev: '::1'
+    app.web: '::1'
+    app.ser1: https://dev.eer-front.dom01.fr
+    app.sig: https://qualif-eer.themisbanque.fr/ws/signature/
+    app.dir: //srvweb05/htdocs/apidev/public
+    app.root: D:/PRODUCT/apifiducial6.3/
+    app.frontcheck : 0
+services:
+    Symfony\Component\DependencyInjection\ContainerInterface:
+        alias: service_container
+    # default configuration for services in *this* file
+    _defaults:
+        autowire: true      # Automatically injects dependencies in your services.
+        autoconfigure: true # Automatically registers your services as commands, event subscribers, etc.
+
+    # makes classes in src/ available to be used as services
+    # this creates a service per class whose id is the fully-qualified class name
+    # doctrine.orm.metadata.annotation_reader:
+    #     class: Doctrine\Common\Annotations\AnnotationReader
+
+    # doctrine.orm.default_annotation_metadata_driver:
+    #     class: Doctrine\Persistence\Mapping\Driver\MappingDriverChain
+    #     public: false
+    #     arguments:
+    #         - []
+    #     calls:
+    #         - [addDriver, ['@doctrine.orm.metadata.annotation_driver', 'App\Entity']]
+
+    # doctrine.orm.metadata.annotation_driver:
+    #     class: Doctrine\Persistence\Mapping\Driver\AnnotationDriver
+    #     public: false
+    #     arguments:
+    #         - '@doctrine.orm.metadata.annotation_reader'
+    #         - ['../src/Entity/']
+    App\:
+        resource: '../src/'
+        exclude:
+            - '../src/DependencyInjection/'
+            - '../src/Entity/'
+            - '../src/Kernel.php'
+
+    # add more service definitions when explicit configuration is needed
+    # please note that last definitions always *replace* previous ones

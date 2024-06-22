@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Fidduc</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+<style>
+	.head1 {
+
+		height: 4em;
+
+	}
+
+	.head2 {
+		height: 7em;
+		display: block;
+
+	}
+
+	.fonts {
+		font-size: 15px;
+	}
+
+	.headtext {
+		text-align:center;
+		font-size: 18px;
+		font-weight: bold;
+	}
+
+	table,
+	th,
+	td {
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
+
+	th,
+	td {
+		padding: 5px;
+		text-align: left;
+	}
+
+	th {
+		background: #b51f39;
+		color: white;
+	}
+
+	tbody>tr>:nth-child(2) {
+		width: 50%;
+	}
+
+	.lasttable>tbody>tr>:nth-child(1) {
+		width: 7%;
+	}
+	
+	.container {
+	    margin: 0;
+		padding: 0;
+		width: 803px;
+		height: 1400px;
+	}
+	
+	body {
+	 font-family:"Open sans";
+	 line-height:5px;
+	}
+</style>
+
+<body>
+	<div class="main">
+		<br><br><br><br><br><br>
+		<div class="container" style="display: block;width:750px;margin:auto;top:0px;font-size:12px;color:#333333;">
+			<div style="width:90%;margin: auto;">
+				<div class="maindiv1">
+					<div class="mainc1">
+						<div class="head2">
+							<div style="text-align:center;">
+								<span class="headtext">
+								CONVENTION DE COMPTE COURANT PROFESSIONNEL
+								<br>
+								Conditions Particulières Banque en Ligne – FIDUCIAL BANQUE</span>
+							</div>
+						</div>
+					</div>
+					<br><br><br><br>
+					<div class="mainc2" style="text-align:justify">
+						<div style="height: 2.5em;">
+							<span style="font-size: 15px;">Entre :</span>
+							<br><br>
+						</div>
+						<div style="min-height: 7em;">
+							<span style="font-size: 15px;">BANQUE FIDUCIAL (agissant sous le nom commercial FIDUCIAL
+								BANQUE), société anonyme, dont le siège social est situé 41 rue du Capitaine Guynemer,
+								92925
+								Paris La Défense et dont l'adresse de correspondance est au 38 rue du Sergent Michel
+								Berthet, 69266 Lyon, immatriculée au Registre du commerce et des sociétés de Nanterre
+								sous
+								le numéro 302 077 458, dûment représentée à l'effet des présentes.</span>
+						</div>
+						<br><br><br>
+						<div style="height: 2.5em;width:100%;text-align:right;">
+							<span style="font-size: 15px;">Ci-après dénommée « la Banque »,</span>
+						</div>
+					</div>
+					<br><br><br>
+					<div class="mainc3">
+						<div style="font-size: 15px; height: 2.5em;">
+							<span>Et la société :</span>
+						</div>
+						<br><br>
+						<div style="min-height: 8em;display: block;">
+							<div style="">
+								<span class="fonts">#Clientdesignation# #Clientprenom#</span><br>
+								<span class="fonts">#Clientadresse#</span><br>
+								<span class="fonts">#Clientcp# #Clientville#</span><br>
+								<span class="fonts">#Clientpays#</span><br>
+							</div>
+						</div>
+						<div style="font-size: 15px;height: 3.5em;width:100%;text-align:right;">
+							<span>Ci-après dénommée « le Client»,</span>
+						</div>
+					</div>
+					<br><br>
+					<div class="mainc4" style="text-align:justify">
+						<div style="min-height: 8em;">
+							<span class="fonts">il est convenu l’ouverture d’un compte courant soumis aux Conditions
+								Particulières ci-dessous et aux « Conditions générales » de la « Convention de Compte
+								Courant Professionnel » dont le Client déclare avoir parfaite connaissance pour en avoir
+								pris lecture et s’engager expressément à leur exécution.</span><br>
+							<span class="fonts">Le compte bancaire professionnel FIDUCIAL BANQUE est un compte courant
+								individuel affecté à un usage exclusivement professionnel.
+							</span>
+						</div>
+						<br><br>
+						<div style="min-height: 9em;">
+							<span class="fonts">Il est rappelé que l’ouverture d’un compte n’est effective qu’après
+								communication à la Banque de l’ensemble des renseignements et justificatifs nécessaire à
+								l’ouverture dudit compte et après agrément préalable de la Banque. Par conséquent, le
+								fait pour le Client d’avoir fourni à la Banque l’ensemble des documents demandés, via la
+								plateforme internet d’ouverture de compte en ligne fourni par la Banque, ne signifie pas
+								que la Banque est tenue d’ouvrir un compte bancaire au Client. Après examen de
+								l’ensemble des documents demandés, la Banque se réserve le droit de ne pas accéder à la
+								demande d’ouverture de compte formulée par le Client, sans avoir à motiver sa décision,
+								ce que le Client accepte sans réserve. </span>
+						</div>
+						<br><br>
+						<div style="min-height: 7em;">
+							<span class="fonts"><b>Protection des données à caractère personnel :</b> Les informations
+								ci-dessous sont nécessaires à l’ouverture de compte. Le droit d’accès s’exerce auprès de
+								l’agence de gestion. La Banque est autorisée à confier à des prestataires ou sous-
+								traitants le traitement de ses opérations et à communiquer aux sociétés membres de son
+								groupe ou liées par un accord de partenariat les informations utiles à l’élaboration
+								d’offres commerciales ou la gestion d’opérations du Client.</span>
+						</div>
+					</div>									
+				</div>	
+			</div>
+		</div>		
+		<br><br><br><br>
+		<div class="container" style="display: block;width:750px;margin:auto;top:0px;font-size:12px;color:#333333;text-align:justify;">
+			<div style="width:90%;margin: auto;">
+				<div class="maindiv2">
+					<div style="min-height: 9em;">
+						<span class="fonts">Dans la mesure où la Banque traite les données à caractère personnel du
+							Client, elle s’engage à respecter les dispositions légales et règlementaires en vigueur
+							relatives à la protection des Données, notamment le Règlement (UE) 2016/679 du Parlement
+							européen et du Conseil relatif à la protection des personnes physiques à l’égard du
+							traitement des données à caractère personnel et à la libre circulation de ces données (RGPD)
+							ainsi que la loi n°78-17 du 6 janvier 1978 dans la dernière version en vigueur.</span>
+					</div>
+					<br><br><br>
+					<div style="min-height: 4.5em;">
+						<span class="fonts">La Banque précise en outre que l’ensemble des informations relatives à la
+							Politique de confidentialité est disponible sur le site www.fiducial-banque.fr.</span>
+					</div>
+					<br><br><br>
+					<div style="width:100%">
+						<table style="width:750px;">
+							<tr>
+								<th colspan="2" style="text-align:center">TITULAIRE</th>
+							</tr>
+							<tr>
+								<td style="width:325px">Dénomination sociale/Nom</td>
+								<td style="width:325px">#Clientdesignation# #Clientprenom#</td>
+							</tr>
+							<tr>
+								<td>Enseigne/Sigle/Nom commercial</td>
+								<td>#Clientsigle#</td>
+							</tr>
+							<tr>
+								<td>Nationalité</td>
+								<td>#Clientpays#</td>
+							</tr>
+							<tr>
+								<td>Code NAF</td>
+								<td>#ape#</td>
+							</tr>
+							<tr>
+								<td>N° SIRET</td>
+								<td>#Clientsiret#</td>
+							</tr>
+							<tr>
+								<td>Forme juridique</td>
+								<td>#Clientformejuridique#</td>
+							</tr>
+						</table>
+					</div>
+					<br><br><br><br>
+					<div>
+						<table style="width:750px;">
+							<tr>
+								<th colspan="2" style="text-align:center">ADRESSE FISCALE</th>
+							</tr>
+							<tr>
+								<td style="width:325px">Dénomination sociale/Nom</td>
+								<td style="width:325px">#Clientdesignation# #Clientprenom#</td>
+							</tr>
+							<tr>
+								<td>Adresse</td>
+								<td>#Clientadresse#</td>
+							</tr>
+							<tr>
+								<td>Code postal</td>
+								<td>#Clientcp#</td>
+							</tr>
+							<tr>
+								<td>Ville</td>
+								<td>#Clientville#</td>
+							</tr>
+							<tr>
+								<td>Pays</td>
+								<td>#Clientpays#</td>
+							</tr>
+						</table>
+					</div>
+					<br><br><br><br>
+					<div>
+						<table style="width:750px;">
+							<tr>
+								<th colspan="2" style="text-align:center">REPRESENTANT LEGAL</th>
+							</tr>
+							<tr>
+								<td style="width:325px">Nom</td>
+								<td style="width:325px">#Representnom#</td>
+							</tr>
+							<tr>
+								<td>Prénom</td>
+								<td>#Representprenom#</td>
+							</tr>
+							<tr>
+								<td>Date de naissance</td>
+								<td>#Representdatenaissance#</td>
+							</tr>
+							<tr>
+								<td>Lieu de naissance</td>
+								<td>#Representpaysnaissance#</td>
+							</tr>
+							<tr>
+								<td>Nationalité</td>
+								<td>#Representnationalite#</td>
+							</tr>
+							<tr>
+								<td>Adresse</td>
+								<td>#Representadresse#</td>
+							</tr>
+							<tr>
+								<td>Code postal</td>
+								<td>#Representcp#</td>
+							</tr>
+							<tr>
+								<td>Ville</td>
+								<td>#Representville#</td>
+							</tr>
+							<tr>
+								<td>Pays</td>
+								<td>#Representpays#</td>
+							</tr>
+							<tr>
+								<td>E-mail</td>
+								<td>#Representemail#</td>
+							</tr>
+							<tr>
+								<td>Téléphone</td>
+								<td>#Representtelmobile#</td>
+							</tr>
+						</table>
+					</div>
+					<br><br><br><br>				
+				</div>
+			</div>
+		</div>
+		<br><br><br><br>
+		<div class="container" style="display: block;width:750px;margin:auto;top:0px;font-size:12px;color:#333333;">
+			<div style="width:90%;margin: auto;text-align:justify;">
+				<div class="maindiv3">
+					<div style="height: 3em;">
+						<span style="font-weight: bold;font-size: 16px;">ADHESION A LA CONVENTION DE COMPTE</span>
+					</div>
+					<br><br><br>
+					<div style="min-height: 9em;">
+						<span class="fonts">Les présentes Conditions Particulières s’appliquent à l’ensemble des comptes
+							actuels et futurs du Client sans préjudice des modifications réglementaires ou évolutions
+							qui pourraient intervenir ultérieurement.<br>
+							Il est précisé que l’ensemble des annexes aux présentes Conditions Particulières font
+							parties intégrantes de ces Conditions Particulières, de telle sorte que le Client, ayant
+							validé les présentes Conditions Particulières, est dispensé d’en valider les annexes
+							correspondantes aux Produits et Services auxquels il a souscrit.</span>
+					</div>
+					<br><br><br>
+					<div style="min-height: 8.5em;">
+						<span class="fonts">Ces comptes, et tout compte qui serait ouvert ultérieurement, seront soumis
+							aux « Conditions générales » de la « Convention de Compte Courant Professionnel » dont un
+							exemplaire a été porté à la connaissance du Client, via le site internet de FIDUCIAL BANQUE.
+							Ce dernier déclare accepter les « Conditions Générales » sans réserve et reconnaît rester en
+							possession du tarif indiqué dans la Tarification de la Banque FIDUCIAL « Tarifs et
+							Conditions des Principales Opérations Bancaires » et en accepter également les
+							conditions.</span>
+
+					</div>
+					<br><br><br>
+					<div style="min-height: 7em;">
+						<span class="fonts">Ces « Conditions générales » de la « Convention de Compte Courant
+							Professionnel » et cette « Tarification de la Banque FIDUCIAL » en vigueur sont disponibles
+							sur simple demande ainsi que sur le portail internet de la Banque « www.fiducial-banque.fr »
+							et leurs évolutions sont considérées comme acceptées par le Client dès lors qu’il continue
+							d’utiliser les services de la Banque.</span>
+
+					</div>
+					<br><br><br>
+					<div style="min-height: 5em;">
+						<span class="fonts">Le Client accepte de souscrire à la présente Convention sous format
+							électronique et de recevoir toute la documentation afférente à celle-ci sous ce même format.
+							Cette souscription sera validée électroniquement, ce que le Client accepte expressément.
+						</span>
+
+					</div>
+					<br><br><br>
+					<div style="min-height: 5em;">
+						<span class="fonts">Les présentes Conditions Particulières seront validées par un premier clic
+							du Client. Un code à usage unique lui sera #mis par SMS. Sauf à revenir sur son choix,
+							le Client renseignera le code #mis et confirmera par un second clic valant acceptation
+							et conclusion de la Convention.</span>
+
+					</div>
+					<br><br><br><br>
+					<div style="min-height: 10em;">
+						<span class="fonts">Le Client bénéficie d’un délai de rétractation de quatorze jours calendaires
+							révolus à compter de la date de conclusion de la Convention sans avoir à justifier de motif
+							ni à supporter de pénalités.<br>
+							Pour exercer ce droit de rétractation, le Client doit envoyer, par lettre recommandée avec
+							avis de réception à la Banque le formulaire de rétractation joint à sa Convention après
+							l’avoir rempli, daté et signé à : Direction de la Conformité, Banque FIDUCIAL, 38 rue
+							sergent Michel Berthet, 69009 LYON. Les frais d’envoi de cette lettre sont à la charge du
+							Client selon le tarif postal en vigueur.</span>
+
+					</div>
+					<br><br><br>
+					<div style="min-height: 10em;">
+						<span class="fonts">L’exercice de ce droit de rétractation sur la Convention emportera
+							résiliation de cette Convention dans toutes ses composantes ainsi que de tout produit ou
+							service lié au fonctionnement du compte de dépôt. En cas de rétractation, le Client doit
+							restituer à la Banque, s’il y a lieu, toutes les sommes perçues au titre de la Convention,
+							dans les meilleurs délais et au plus tard dans les trente jours à compter du jour de la
+							notification de la rétractation. De son côté, la Banque doit procéder de même dans les
+							meilleurs délais et au plus tard dans les trente jours à compter de la réception de cette
+							notification.</span>
+					</div>					
+				</div>
+			</div>
+		</div>
+		<br><br><br><br>
+		<div class="container" style="display: block;width:750px;margin:auto;top:0px;font-size:12px;color:#333333;">
+			<div style="width:90%;margin: auto;">
+				<div class="maindiv4">
+					<div>
+						<table class="table lasttable" style="width:100%">
+							<tr>
+								<th colspan="2" style="text-align:center">PRODUITS ET SERVICES SOUSCRITS</th>
+							</tr>
+							<tr>
+								<td style="height: 15px;" colspan="2">Le Client souhaite souscrire à l’« Offre 1 », au
+									prix de 12€ HT/mois, comprenant les produits et services suivants :</td>
+							</tr>
+							<tr>
+								<td>L1</td>
+								<td><b>Compte Courant</b></td>
+							</tr>
+							<tr>
+								<td>L2</td>
+								<td><b>Commission de Mouvements :</b> Dans la limite de 200.000€ de mouvements débit par
+									trimestre</td>
+							</tr>
+							<tr>
+								<td>L3</td>
+								<td><b>Carte Bancaire :</b> Business Débit Immédiat ou Business Débit Différé (+ 2€
+									HT/mois)</td>
+							</tr>
+							<tr>
+								<td>L4</td>
+								<td><b>Banque En Ligne</b></td>
+							</tr>
+							<tr>
+								<td>L5</td>
+								<td><b>Prélèvements SEPA : </b>Illimité</td>
+							</tr>
+							<tr>
+								<td>L6</td>
+								<td><b>Virements SEPA :</b> Illimité</td>
+							</tr>
+							<tr>
+								<td>L7</td>
+								<td><b>Encaissements : </b>Remises de Chèques</td>
+							</tr>
+							<tr>
+								<td>L9</td>
+								<td><b>Option Carte(s) Bancaire(s) Supplémentaire(s) :</b> Business Débit Immédiat (+
+									5€HT/mois), Business Débit Différé (+ 7€HT/mois)</td>
+							</tr>
+							<tr>
+								<td>L10</td>
+								<td><b>Chéquier</b></td>
+							</tr>
+							<tr>
+								<td>L11</td>
+								<td><b>Encaissements : </b>Contrat Monétique</td>
+							</tr>
+							<tr>
+								<td>L12</td>
+								<td><b>Encaissements : Versement Espèces</b></td>
+							</tr>
+						</table>
+					</div>
+					
+					<br><br><br>
+					<div style="min-height:6em">
+						<span class="fonts">La souscription de ce(s) produit(s) et service(s) demeure soumise à
+							l’acceptation de la Banque. A cet effet, la Banque se réserve le droit de ne pas accepter la
+							souscription par le Client d’un des Produits et Services visés ci-dessus.</span>
+					</div>
+					
+					<br><br><br>
+					<div style="height:5em">
+						<span style="float: right;margin-right: 5em;font-size: 15px;">Le #Datedujour#</span>
+					</div>
+					
+					<br><br><br>
+					<div style="display: block;height: 5em;">
+						<div style="">
+							<span class="fonts"><b>Signature du Client (représentant légal)</b></span>
+						</div>
+						<div style="float: right;">
+							<span class="fonts"><b>Signature de la FIDUCIAL BANQUE</b></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

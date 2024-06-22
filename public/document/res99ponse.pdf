@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+
+  <html>
+    <head>
+        
+     
+        
+</head>
+
+
+<body>
+  <div style="position: absolute;bottom: 0;background:url('laptop.png');
+  background-repeat: no-repeat; width:728px;height:452px;background-size: cover;">
+<div style="margin-top: 2em;">
+                  <img style="  
+                  height: 150px;
+                  width: 400px;
+                  position:relative;
+                  margin-left:150px;
+                  " src= 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAS8AAAAyAQMAAAA3L89qAAAABlBMVEX///8AAABVwtN+AAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAEJJREFUOI1j+FNgwVB//PE/i//9/+Ub/8vwHwdy5f9ZMDf+kP944E/9gT+M/2XqGEaVjSobVTaqbFTZqLJRZfRSBgDRARKf3xBtAwAAAABJRU5ErkJggg=='>
+                  <p style="font-size: 28px;
+                  margin-left:180px;
+                  letter-spacing: 15px;
+                  color: #120101;">*   722499514   *</p>
+</div>
+<div style="margin-top: 1em;">
+                            <p style="font-size: 34px;
+                            color: #120101;
+                            font-weight: 400;">NOM:  KICK </p>
+                            <p style="font-size: 34px;
+                            color: #120101;
+                            font-weight: 400;">PRENOM:  BUTOWSKI </p>
+                    </div>
+
+                    <div style="background-color:brown">
+      <p style=" font-size: 30px;
+      color: white;
+      font-weight: 700;
+      letter-spacing: 4px;
+      margin-left:180px;"> Votre carte de depot</p>
+    </div>
+    </div>
+
+</body>
+</html>
